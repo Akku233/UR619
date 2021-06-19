@@ -1,0 +1,17 @@
+.box_one>.ttt{
+    /* border-bottom: 1px solid #666; */
+        margin: 30px 0 30px 0; 
+}
+.box_one>.ttt>p{
+    font-size: 20px; 
+    color: #999;
+    line-height: 40px;
+}
+.box_one>.ttt>input{
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    width: 75%;
+    margin-top: 10px;
+    outline: none;
+    font-size: 20px;
+}

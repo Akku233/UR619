@@ -1,0 +1,215 @@
+#container{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+#logo{
+    width: 366px;
+    height: 30px;
+    margin: 76px auto 0;
+    position: relative;
+}
+#logo>img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lists>p{
+    font-size: 16px;
+    color: #999;
+}
+.lists>p>a{
+    font-size: 16px;
+    color: #666;
+}
+.lists>p>a:hover{
+    cursor: pointer;
+}
+/* 购物袋 */
+.bagpack{
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width:400px;
+    height: 750px;
+    z-index: 9999;
+    background-color: #fff;
+}
+.bagpack>.bag{
+    margin: 80px 0 0 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.che{
+    margin: 300px 0 80px 150px;
+    font-size: 16px;
+    color: #999;
+}
+.guang{
+    width: 220px;
+    margin-left: 26%;
+    background-color: #0047bb;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.bagpack:hover{
+    cursor: pointer;
+}
+/* .spcar{
+    position: relative;
+} */
+/* 滑动显示购物袋 */
+/* .spcar:hover>.bagpack{
+    display: block;
+} */
+/* 搜索栏和左上导航 */
+.search{
+    position: absolute;
+    top: 50px;
+    left: 75.5%;
+    z-index: 99;
+}
+.search .search_list li{
+    float: left;
+    padding: 0 25px 0 0;   
+}
+.search .search_list li a{
+    color: #000;
+    font-size: 14px;
+}
+.spcar_top{
+    position: relative;
+}
+.gouwudai{
+    position: absolute;
+    top: 110px;
+    left: 45%;
+
+}
+.gouwudai>p{
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+}
+.spcar_top{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #666;
+}
+.spbag{
+    width: 1110px;
+    /* height: 200px; */
+    margin: 30px auto ;
+    /* background-color: #0047bb; */
+}
+.splist{
+    clear: both;
+    width: 1110px;
+    height: 200px;
+    /* box-sizing: border-box; */
+}
+.splist>li{
+    width: 33%;
+    height: 200px;
+    float: left;
+    /* border: 1px solid #333; */
+}
+.splist>li>input{
+    width: 20px;
+    height: 20px;
+    margin: 50% 0 0 0;
+}
+.splist>li>div{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.splist>li>div>img{
+    width: 100%;
+    height: 100%;
+}
+.splist>li>.dd1{
+    margin: 40px 0 0 30px;
+}
+.splist>li>.dd1>p{
+    font-size: 13px;
+}
+.splist>li>.dd1>h4{
+    font-size: 14px;
+}
+.splist>li>.dd1>.pp1{
+    margin-top: 30px;
+}
+.splist>li>.dd2{
+    margin-top: 90px;
+    margin-left: 10px;
+    flex: 1;
+}
+.splist>li>.dd2>p{
+    font-size: 14px;
+}
+.splist>li>.dd3{
+    margin-top: 90px;
+    flex: 1;
+    
+}
+.splist>li>.dd3>a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #666;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666;
+}
+.splist>li>.dd3>.aaa{
+    border: 0;
+    margin-left: 110px;
+}
+.spzs{
+    clear: both;
+    width: 1110px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #F8F9FB;
+}
+.spzs>span{
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.jiesuan{
+    width: 1110px;
+    height: 150px;
+    margin: 20px auto 50px;
+    line-height: 150px;
+    font-size: 16px;
+}
+.jiesuan>input{
+    width: 20px;
+    height: 20px;
+
+}
+.jiesuan>span{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #666;
+}
+.jiesuan>span:hover{
+    color: #999;
+    cursor: pointer;
+}
+.jiesuan>.ccc{
+    color: #fff;
+}

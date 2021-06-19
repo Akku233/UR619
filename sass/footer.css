@@ -1,0 +1,163 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, button, input, textarea, /* form elements 表单元素 */
+th, td ,img{ /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    /* font-family: "微软雅黑"; */
+    /* font-weight: normal; */
+    border: none;
+}
+ol,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: #fff;
+}
+video,img{ vertical-align:top; }
+/* 清除浮动 */
+.cl{
+    clear: both;
+
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 620px;
+    border-top: 1px solid #333;
+    /* display: block; */
+    /* overflow: hidden; */
+}
+#footer>.one{
+    width: 33.33%;
+    height: 620px;
+    /* background-color: red; */
+    float: left;
+}
+.ull,.oll{
+    margin:100px 0 130px 30px;
+}
+.ull>li{
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #333;
+}
+.oll>li{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #999;
+}
+.oll>li>a{
+    font-size: 14px;
+    color: #999;
+}
+.oll>li:hover a{
+    cursor: pointer;
+}
+
+#footer>.two{
+    width: 33.33%;
+    height: 620px;
+    /* background-color: yellow; */
+    float: left;
+}
+.address{
+    margin:100px 0 0 50px;
+}
+.address>li{
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #999;
+}
+.address>li>h4{
+    font-size: 14px;
+    color: #333;
+}
+.address>li>input{
+    width: 290px;
+    height: 38px;
+    text-indent: 5px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #333;
+    margin: 8px 0;
+}
+.address>li>button{
+    display: block;
+    width: 290px;
+    height: 38px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    line-height: 38px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+.address>li:hover button{
+    cursor: pointer;
+}
+.address>li:hover button,.address>li:hover input{
+    border: 1px solid #e3e3e3;
+}
+
+#footer>.three{
+    width: 33.33%;
+    height: 620px;
+    float: left;
+    position: relative;
+}
+.three>.three_one{
+    float: left;
+    width: 33.33%;
+}
+.three>.three_two{
+    float: left;
+    width: 33.33%;
+}
+.three>.three_three{
+    float: left;
+    width: 33.33%;
+}
+.problem{
+    /* width: 28%; */
+    /* display: block; */
+    /* float: left; */
+    margin: 100px 0 0 20px;
+}
+.problem>li{
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    color: #999;
+}
+.problem>li>h4{
+    font-size: 14px;
+    color: #333;
+}
+.problem>li:hover{
+    cursor: pointer;
+    color: #333;
+}
+.three>.mazi{
+    position: absolute;
+    right: 10px;
+    bottom: 25%;
+    width: 100px;
+    height: 100px;
+}
+.three>.mazi>p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.wb{
+    margin: 20px 0 0 20px;
+    float: left;
+}
+.wx{
+    float: left;
+    margin: 20px 0 0 0px;
+}
